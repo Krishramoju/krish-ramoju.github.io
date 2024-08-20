@@ -11,42 +11,60 @@
             color: #333;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header, footer {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
             padding: 20px 0;
         }
         main {
             max-width: 1000px;
-            margin: 20px auto;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: #fff;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
         }
         h1, h2 {
             color: #444;
+            margin-bottom: 10px;
         }
-        section {
-            margin-bottom: 20px;
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         ul li {
-            background: #eee;
+            background-color: #f9f9f9;
             margin: 5px 0;
             padding: 10px;
-            border-radius: 5px;
+            border-left: 4px solid #0066cc;
+            border-radius: 3px;
         }
         a {
             color: #0066cc;
             text-decoration: none;
+            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 0 10px;
+            }
+            section {
+                padding: 15px;
+            }
         }
     </style>
 </head>
@@ -58,8 +76,12 @@
     <main>
         <section>
             <h2>Summary</h2>
-            <p>First of extracurricular activities. I was vice captain in 8th grade followed by 9th and 10th. I have a bronze level International Award for Young People certificate. I have taken part in 8 Model United Nations, winning Outstanding Delegate twice in Sancta Maria's Model United Nations. I also participated in Harvard Online Model United Nations among others.</p>
-            <p>About my academic achievements so far, I was the Salutatorian of my batch at Sancta Maria. I have followed a Cambridge curriculum throughout my student life, part of it at the International British School of Alexandria in Egypt. I was an IGCSE as well as A Level High Achiever. I have a 98.14 JEE Mains percentile and I would like to point out the shortage of students from a Cambridge background to pursue this entrance examination. I am a Computer Science core engineering student at Chaitanya Bharati Institute of Technology at present. Clearly, I have shown to be quite a successful learner both academically and elsewhere.</p>
+            <p>
+                I have a strong background in extracurricular activities and academics. Serving as Vice Captain during 8th, 9th, and 10th grades, I earned the Bronze Level International Award for Young People certificate. Participating in 8 Model United Nations conferences, I secured the Outstanding Delegate award twice at Sancta Maria's MUN and also took part in the Harvard Online MUN among others.
+            </p>
+            <p>
+                Academically, I was the Salutatorian of my batch at Sancta Maria International School, following the Cambridge curriculum throughout my education, including time at the International British School of Alexandria in Egypt. Achieving high distinctions in IGCSE and A-Level examinations, I also scored a 98.14 percentile in the JEE Mains, showcasing the adaptability and excellence of Cambridge curriculum students in competitive exams. Currently, I am pursuing a degree in Computer Science Engineering at Chaitanya Bharati Institute of Technology, continually demonstrating success both academically and in extracurricular pursuits.
+            </p>
         </section>
         
         <section>
@@ -78,52 +100,54 @@
                 <li>Python Programming Intern at Codsoft</li>
                 <li>Delegate of Norway, UNEP HMUN 2021</li>
                 <li>Delegate of USA, DISEC SMISMUN 2021</li>
-                <li>Delegate of Lao, DISEC HMUN 2020</li>
+                <li>Delegate of Laos, DISEC HMUN 2020</li>
                 <li>Delegate of Peru, UNODC CUIMUN 2020</li>
-                <li>Delegate of UK, UNOOSA 2020 SMISMUN</li>
-                <li>Vice Captain 2019</li>
+                <li>Delegate of UK, UNOOSA SMISMUN 2020</li>
+                <li>Vice Captain, 2019</li>
                 <li>Delegate of Sweden, DISEC 2019</li>
                 <li>Delegate of Sweden, SOCHUM Chirec JMUN 2018</li>
-                <li>Vice Captain 2018</li>
+                <li>Vice Captain, 2018</li>
             </ul>
         </section>
         
         <section>
-            <h2>Courses</h2>
+            <h2>Courses & Certifications</h2>
             <ul>
-                <li>DSA Python NPTEL</li>
-                <li>Coursera C++ Fundamentals</li>
-                <li>DSA C NPTEL</li>
-                <li>HackerRank Python</li>
-                <li>Harvard CS50 C Programming Basics</li>
-                <li>Stress Management NPTEL</li>
+                <li>Data Structures and Algorithms in Python - NPTEL</li>
+                <li>C++ Fundamentals - Coursera</li>
+                <li>Data Structures and Algorithms in C - NPTEL</li>
+                <li>Python Programming - HackerRank</li>
+                <li>CS50: Introduction to Computer Science - Harvard University</li>
+                <li>Stress Management - NPTEL</li>
                 <li>Cambridge A Level High Achiever</li>
                 <li>Cambridge AS Level High Achiever</li>
                 <li>Cambridge IGCSE High Achiever</li>
-                <li>IAYP Bronze</li>
-                <li>IGCSE ICE</li>
-                <li>Mindspark Badge Middle School</li>
-                <li>Olympiad Middle School Math Bronze</li>
-                <li>Olympiad Middle School Silver English</li>
-                <li>Outstanding Delegate SMISMUN 2020</li>
-                <li>Outstanding Delegate SMISMUN 2021</li>
-                <li>Salutatorian Pass Out</li>
+                <li>International Award for Young People - Bronze Level</li>
+                <li>IGCSE ICE Certificate</li>
+                <li>Mindspark Middle School Badge</li>
+                <li>Middle School Math Olympiad - Bronze Medal</li>
+                <li>Middle School English Olympiad - Silver Medal</li>
+                <li>Outstanding Delegate - SMISMUN 2020 & 2021</li>
+                <li>Salutatorian Graduate</li>
             </ul>
         </section>
 
         <section>
             <h2>Test Scores</h2>
-            <p>JEE Main Percentile: 98.14</p>
+            <ul>
+                <li>JEE Main Percentile: 98.14</li>
+            </ul>
         </section>
         
         <section>
-            <h2>LinkedIn</h2>
-            <p>Connect with me on <a href="https://www.linkedin.com/in/krish-ramoju-b14a2128b" target="_blank">LinkedIn</a>.</p>
+            <h2>Connect with Me</h2>
+            <p>
+                You can connect with me on <a href="https://www.linkedin.com/in/krish-ramoju-b14a2128b" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+            </p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Krish Ramoju</p>
+        <p>&copy; 2024 Krish Ramoju. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
